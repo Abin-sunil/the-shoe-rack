@@ -843,6 +843,8 @@ li.dropdown.act a.w3_icons_act {
     padding: 0.6em 1em;
     font-size: 0.9em;
     letter-spacing: 1px;
+    position: relative;
+    left: 9px;
 }
 .shop-button a:hover,.shop-button.two a:hover {
     background: #fff;
