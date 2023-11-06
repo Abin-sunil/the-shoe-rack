@@ -806,7 +806,7 @@ li.dropdown.act a.w3_icons_act {
     width: 50%;
 }
 .style-grid.style-grid-1 img,.style-grid.style-grid-2 img  {
-    width: 94%;
+    width: 100%;
 }
 .style-image-1_info {
     padding: 7em 5em;
@@ -819,7 +819,7 @@ li.dropdown.act a.w3_icons_act {
 .style-image-1_info {
     padding: 7em 5em;
     height: 321px;
-    background: #fb383b;
+    background: #F33B31;
 }
 .style-grid-2-text_info h3 {
     font-size: 30px;
@@ -869,8 +869,8 @@ li.dropdown.act a.w3_icons_act {
 
 .grid_sec_info {
     padding: 7em 5em;
-    background: #fb383b;
-    width: 635px;
+    background: #F33B31;
+    width: 676px;
 }
 .grid_sec_info.last {
     background: #FFF;
@@ -1821,7 +1821,7 @@ p.head_para {
     }
     .callbacks_tabs {
         bottom: 16%;
-        left: 42%;
+        left: 30%;
     }
     .grids_sec_2_left {
         padding: 0;
