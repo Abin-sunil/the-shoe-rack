@@ -807,6 +807,7 @@ li.dropdown.act a.w3_icons_act {
 }
 .style-grid.style-grid-1 img,.style-grid.style-grid-2 img  {
     width: 100%;
+    height: 10%;
 }
 .style-image-1_info {
     padding: 7em 5em;
@@ -1432,13 +1433,16 @@ p.head_para {
     }
     .callbacks_tabs {
         bottom: 16%;
-        left: 38.5%;
+        left: 35.5%;
     }
     .top_nav_right {
         right: 1%;
     }
 }
 @media(max-width:1366px){
+    .callbacks_tabs{
+        left: 38%;
+    }
 	.top_nav_right {
         right: 1%;
         margin-top: 48px;
@@ -1463,6 +1467,17 @@ p.head_para {
     }
 }
 @media(max-width:1280px){
+    .air-text{
+        position: relative;
+        left: 30%;
+    }
+    .white-shoe{
+        position: relative;
+        left: 30%;
+    }
+    .grid_sec_info{
+        width: 125%;
+    }
 	.style-grid-1 img {
         height: 653px;
     }
@@ -1507,6 +1522,7 @@ p.head_para {
     }
     .grid_sec_info {
         padding: 4em 3em;
+        width: 111%;
     }
     .mid_slider_text h5 {
         font-size: 17px;
@@ -1527,6 +1543,20 @@ p.head_para {
     }
 }
 @media(max-width:1024px){
+    .callbacks_tabs{
+        left: 300%;
+    }
+    .grid_sec_info{
+        width: 125%;
+    }
+    .white-shoe{
+        position: relative;
+        left: 141px;
+    }
+    .air-text{
+        position: relative;
+        left: 100px;
+    }
     ul.short {
         padding: 10em 0em 0 5em;
     }
@@ -1548,6 +1578,7 @@ p.head_para {
 	.left-ads-display{
         padding: 0;
         margin-top: 2em;
+        
     }
     .product-shoe-info {
         padding: 15px;
@@ -1614,7 +1645,7 @@ p.head_para {
 	}
     .callbacks_tabs {
         bottom: 16%;
-        left: 43%;
+        left: 34%;
     }
     .add-review input[type="text"], .add-review input[type="email"], .add-review textarea {
         width: 100%;
@@ -1647,6 +1678,13 @@ p.head_para {
     }
 }
 @media(max-width:900px){
+    .grid_sec_info{
+        width: 111%;
+    }
+    .white-shoe{
+        position: relative;
+        left: 81px;
+    }
     .top_nav_right {
         right:4.5%;
         margin-top: 48px;
@@ -1666,13 +1704,14 @@ p.head_para {
         padding: 14em 0em 0 0em;
     }
     .banner-info-wthree    p {
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     .style-grid-1 img {
-        height: 503px;
+        height: 500px;
     }
     .style-grids_main {
         width: 90%;
+        height: 10%;
     }
     .newsletter_w3layouts_agile {
         padding: 2em 1em;
@@ -1734,6 +1773,8 @@ p.head_para {
     
 }
 @media(max-width:768px){
+
+    
 	.top_nav_right {
         right: 8%;
         margin-top: 48px;
@@ -1748,6 +1789,7 @@ p.head_para {
     .callbacks_tabs li {
         display: inline-block;
         margin: 0px 1px;
+    
     }
     ul.top_icons {
         left: 43%;
@@ -1909,6 +1951,9 @@ p.head_para {
     }
 }
 @media(max-width:568px){
+    .callbacks_tabs{
+        left: 33%;
+    }
 	.top_nav_right {
         right: 8.5%;
         margin-top: 25px;
@@ -1933,10 +1978,15 @@ p.head_para {
         float: left;
     }
     .style-grid-2-text_info p {
-        font-size: 0.9em;
+        font-size: 0.7em;
+        position: relative;
+        right: 5px;
     }
 }
 @media(max-width:480px){
+    .white-shoe{
+    left: 5%;
+}
 	.top_nav_right {
         right: 12.5%;
         margin-top: 25px;
@@ -1990,6 +2040,9 @@ p.head_para {
     }
 }
 @media(max-width:414px){
+    .white-shoe{
+        left: 5%;
+    }
 	
     .navbar-brand {
         font-size: 0.55em;
@@ -2018,7 +2071,7 @@ p.head_para {
     }
     .callbacks_tabs {
         bottom: 16%;
-        left: 40%;
+        left: 26%;
     }
     #staplesbmincart {
         left: 4%;
@@ -2064,7 +2117,7 @@ p.head_para {
     }
     .callbacks_tabs {
         bottom: 16%;
-        left: 36%;
+        left: 40%;
     }
     ul.top_icons {
         left: 35%;
@@ -2073,6 +2126,7 @@ p.head_para {
     }
     .grid_sec_info {
         padding: 3em 2em;
+        
     }
     .carousel-control.right {
         left: 312px;
@@ -2099,6 +2153,24 @@ p.head_para {
     }
 }
 @media(max-width:375px){
+    .callbacks_tabs{
+        left: 25%;
+    }
+    .style-grid-2-text_info h3{
+        position: relative;
+        left: 2%;
+    }
+    .style-grid-2-text_info p{
+        position: relative;
+        left: 2%;
+    }
+    .shop-button{
+        position: relative;
+        left: 2%;
+    }
+    .white-shoe{
+        left: 5%;
+    }
 	.top_nav_right {
         right: 18.5%;
         margin-top: 19px;
@@ -2158,6 +2230,20 @@ p.head_para {
     }
 }
 @media(max-width:320px){
+
+    .snek-text{
+        position: relative;
+        left: 10px;
+    }
+    .style-grid-2-text_info{
+        font-size: 10px;
+        position: relative;
+        left: 1%;
+
+    }
+    .white-shoe{
+        left: 15%;
+    }
 	.navbar-brand {
         font-size: 0.45em;
         height: 38px;
@@ -2179,7 +2265,7 @@ p.head_para {
     }
     .callbacks_tabs {
         bottom: 16%;
-        left: 33%;
+        left:300%;
     }
     #staplesbmincart {
         left: 2%;
